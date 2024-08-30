@@ -12,3 +12,9 @@ authors = [{ name = "Rolf Harkes", email = "r.harkes@nki.nl" }]
 dependencies = [
 
 ]
+
+[tool.mypy]
+python_version = '3.12'
+mypy_path = "src"
+packages = "mypythonmodule"
+strict = true
